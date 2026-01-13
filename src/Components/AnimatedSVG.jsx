@@ -14,7 +14,7 @@ const AnimatedSVG = () => {
         rotate: -200,
         transformOrigin: "50% 50%",
         repeat: -1,
-        duration: 6 + i * 2, // stagger durations
+        duration: 30 + i * 2, // stagger durations
         ease: "linear",
       });
     });
@@ -24,7 +24,7 @@ const AnimatedSVG = () => {
       rotate: -200,
       transformOrigin: "50% 50%",
       repeat: -1,
-      duration: 6,
+      duration: 30,
       ease: "linear",
     });
   }, []);
